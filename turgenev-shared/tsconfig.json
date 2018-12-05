@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "turgenev-shared": [
+        "dist/turgenev-shared"
+      ],
+      "turgenev-shared/*": [
+        "dist/turgenev-shared/*"
+      ]
+    }
   }
 }
