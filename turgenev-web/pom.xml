@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>turgenev-shared</artifactId>
-	<packaging>pom</packaging>
+	<artifactId>turgenev-web</artifactId>
+	<packaging>war</packaging>
 
   <parent>
     <groupId>app.turgenev</groupId>
@@ -12,7 +12,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-	<name>turgenev-shared</name>
+	<name>turgenev-web</name>
 
 
 	<properties>

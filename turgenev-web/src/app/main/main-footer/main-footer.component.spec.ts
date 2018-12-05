@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TurgenevSharedComponent } from './turgenev-shared.component';
+import { MainFooterComponent } from './main-footer.component';
 
-describe('TurgenevSharedComponent', () => {
-  let component: TurgenevSharedComponent;
-  let fixture: ComponentFixture<TurgenevSharedComponent>;
+describe('MainFooterComponent', () => {
+  let component: MainFooterComponent;
+  let fixture: ComponentFixture<MainFooterComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TurgenevSharedComponent ]
+      declarations: [ MainFooterComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TurgenevSharedComponent);
+    fixture = TestBed.createComponent(MainFooterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

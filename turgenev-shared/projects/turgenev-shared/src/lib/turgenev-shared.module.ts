@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
-import { TurgenevSharedComponent } from './turgenev-shared.component';
+import { MainPageComponent } from './main/main-page/main-page.component';
 
 @NgModule({
-  declarations: [TurgenevSharedComponent],
+  declarations: [MainPageComponent],
   imports: [
   ],
-  exports: [TurgenevSharedComponent]
+  exports: [MainPageComponent]
 })
 export class TurgenevSharedModule { }
