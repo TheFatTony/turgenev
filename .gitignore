@@ -53,8 +53,6 @@ logs
 # Server
 */target
 */logs
-*/src/main/resources/database/core
-*/src/main/resources/database/core.changelog.xml
 
 # Web
 */node_modules
@@ -71,3 +69,7 @@ logs
 */temp
 */platforms
 */plugins
+
+# App specific
+*/src/main/resources/database/core
+*/src/main/resources/database/core.changelog.xml
