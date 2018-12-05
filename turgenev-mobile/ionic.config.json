@@ -1,0 +1,7 @@
+{
+  "name": "turgenev-mobile",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

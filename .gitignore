@@ -1,0 +1,71 @@
+/node_modules
+
+# IDEs and editors
+.c9/
+*.launch
+*.sublime-workspace
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+*.ips
+.idea/
+
+log.roo
+
+# Eclipse
+.settings/
+.metadata/
+.classpath
+.project
+
+#Maven
+.mvn/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+package-lock.json
+
+
+# Misc.
+.DS_Store
+*.swp
+*.swo
+
+logs
+
+# Server
+*/target
+*/logs
+
+# Web
+*/node_modules
+*/package-lock.json
+*/dist
+*/tmp
+*/temp
+
+# Mobile
+*/node_modules
+*/package-lock.json
+*/www
+*/tmp
+*/temp
+*/platforms
+*/plugins
