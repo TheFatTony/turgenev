@@ -26,7 +26,8 @@
     "@ionic/angular": "4.0.0-beta.16",
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
-    "zone.js": "~0.8.26"
+    "zone.js": "~0.8.26",
+    "turgenev-shared": "/usr/local/lib/node_modules/turgenev-shared"
   },
   "devDependencies": {
     "@angular-devkit/architect": "~0.10.0",
