@@ -13,7 +13,7 @@ export class MainFooterComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-    $.HSCore.components.HSGoTo.init('.js-go-to');
+    $['HSCore'].components.HSGoTo.init('.js-go-to');
   }
 
 }

@@ -8,7 +8,6 @@ import { MainFooterComponent } from './main/main-footer/main-footer.component';
 
 
 import { TurgenevSharedModule } from 'turgenev-shared';
-import { ButtonsModule } from '@progress/kendo-angular-buttons';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
@@ -24,9 +23,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
 
     TurgenevSharedModule,
-
-    ButtonsModule,
-
     BrowserAnimationsModule
   ],
   providers: [],
