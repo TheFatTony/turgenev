@@ -27,14 +27,54 @@
               }
             ],
             "styles": [
-              {
-                "input": "src/theme/variables.scss"
-              },
-              {
-                "input": "src/global.scss"
-              }
+              "src/global.scss",
+              "src/theme/variables.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/font-awesome/css/font-awesome.css",
+              "node_modules/simple-line-icons/css/simple-line-icons.css",
+              "node_modules/animate.css/animate.css",
+              "node_modules/hamburgers/dist/hamburgers.css",
+              "node_modules/chosen-js/chosen.css",
+              "node_modules/custombox/dist/custombox.min.css",
+              "src/assets/vendor/fancybox/jquery.fancybox.min.css",
+              "src/assets/vendor/hs-megamenu/src/hs.megamenu.css",
+              "src/assets/vendor/icon-line-pro/style.css",
+              "src/assets/vendor/icon-hs/style.css",
+              "src/assets/vendor/malihu-scrollbar/jquery.mCustomScrollbar.css",
+              "src/assets/real-estate/css/styles.multipage-real-estate.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/jquery-migrate/dist/jquery-migrate.js",
+              "node_modules/custombox/dist/custombox.min.js",
+              "node_modules/popper.js/dist/umd/popper.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "node_modules/custombox/dist/custombox.min.js",
+              "src/assets/vendor/appear.js",
+              "node_modules/chosen-js/chosen.jquery.js",
+              "node_modules/jquery-countdown/dist/jquery.countdown.js",
+              "src/assets/vendor/fancybox/jquery.fancybox.min.js",
+              "src/assets/vendor/hs-megamenu/src/hs.megamenu.js",
+              "src/assets/vendor/malihu-scrollbar/jquery.mCustomScrollbar.js",
+              "src/assets/js/hs.core.js",
+              "src/assets/js/components/hs.header.js",
+              "src/assets/js/helpers/hs.hamburgers.js",
+              "src/assets/js/helpers/hs.rating.js",
+              "src/assets/js/components/hs.dropdown.js",
+              "src/assets/js/components/hs.slider.js",
+              "src/assets/js/components/hs.select.js",
+              "src/assets/js/components/hs.scrollbar.js",
+              "src/assets/js/components/hs.carousel.js",
+              "src/assets/js/components/hs.popup.js",
+              "src/assets/js/components/hs.go-to.js",
+              "src/assets/js/components/hs.counter.js",
+              "src/assets/js/components/hs.countdown.js",
+              "src/assets/js/components/hs.count-qty.js",
+              "src/assets/js/components/hs.masked-input.js",
+              "src/assets/js/components/hs.modal-window.js",
+              "src/assets/js/components/hs.datepicker.js",
+              "src/assets/js/components/hs.tabs.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -118,8 +158,13 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": ["src/tsconfig.app.json", "src/tsconfig.spec.json"],
-            "exclude": ["**/node_modules/**"]
+            "tsConfig": [
+              "src/tsconfig.app.json",
+              "src/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         },
         "ionic-cordova-build": {
@@ -168,7 +213,9 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": "e2e/tsconfig.e2e.json",
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         }
       }
