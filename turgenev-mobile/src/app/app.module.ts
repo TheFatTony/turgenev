@@ -10,9 +10,10 @@ import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
 
 import { TurgenevSharedModule } from 'turgenev-shared';
+import { MainPageComponent } from './main/main-page/main-page.component';
 
 @NgModule({
-    declarations: [AppComponent],
+    declarations: [AppComponent, MainPageComponent],
     entryComponents: [],
     imports: [
         BrowserModule,

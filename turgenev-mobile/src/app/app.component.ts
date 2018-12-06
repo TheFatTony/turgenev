@@ -12,8 +12,8 @@ export class AppComponent {
 
   public appPages = [
     {
-      title: 'Home',
-      url: '/home',
+      title: 'Main Page',
+      url: '/main-page',
       icon: 'home'
     }
   ];
