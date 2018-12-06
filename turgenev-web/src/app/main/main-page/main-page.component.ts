@@ -1,7 +1,7 @@
 import {AfterViewInit, Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'tsh-main-page',
+  selector: 'app-main-page',
   templateUrl: './main-page.component.html',
   styleUrls: ['./main-page.component.css']
 })
@@ -13,6 +13,7 @@ export class MainPageComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit(): void {
+    $['HSCore'].components.HSSelect.init('.js-custom-select');
   }
 
 }

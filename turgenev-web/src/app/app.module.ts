@@ -9,6 +9,7 @@ import { MainFooterComponent } from './main/main-footer/main-footer.component';
 
 import { TurgenevSharedModule } from 'turgenev-shared';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MainPageComponent } from './main/main-page/main-page.component';
 
 
 
@@ -16,7 +17,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   declarations: [
     AppComponent,
     MainMenuComponent,
-    MainFooterComponent
+    MainFooterComponent,
+    MainPageComponent
   ],
   imports: [
     BrowserModule,
